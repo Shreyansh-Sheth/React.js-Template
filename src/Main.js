@@ -3,11 +3,9 @@
 
 import React, { useState } from "react";
 
-
 export default function Main() {
-
   let [name, setName] = useState("Shreyansh");
-  
+
   return (
     <div>
       <label htmlFor="name">
